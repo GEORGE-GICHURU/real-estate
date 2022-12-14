@@ -9,7 +9,7 @@ const PropertyDetails = () => {
   const { id } = useParams()
 
   //get housedata based on id
-  const house = housesData.find((house) => house.id === id)
+  const house = housesData.find((house) => house.id == id)
 
   console.log(`PropertyDetails`, { id, house })
 

@@ -433,4 +433,48 @@ export const housesData = [
       phone: '0123 456 78910',
     },
   },
+
+  {
+    id: 19,
+    type: 'Apartament',
+    name: 'Apartament 19',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+    image: Apartment6,
+    imageLg: Apartment6Lg,
+    country: 'Kenya',
+    address: '84 Woodland St. Cocoa, FL 32927',
+    bedrooms: '3',
+    bathrooms: '1',
+    surface: '1200 sq ft',
+    year: '2017',
+    price: '38000',
+    agent: {
+      image: Agent6,
+      name: 'Karen Sorensen',
+      phone: '0723 456 78910',
+    },
+  },
+
+  {
+    id: 20,
+    type: 'Apartament',
+    name: 'Apartament 20',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+    image: Apartment5,
+    imageLg: Apartment5Lg,
+    country: 'Kenya',
+    address: '84 Syokimau',
+    bedrooms: '3',
+    bathrooms: '1',
+    surface: '1200 sq ft',
+    year: '2010',
+    price: '38000',
+    agent: {
+      image: Agent5,
+      name: 'Grandson',
+      phone: '0723 456 78910',
+    },
+  },
 ];
