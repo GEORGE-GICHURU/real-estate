@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, useParams } from 'react-router-dom'
+
+import { ImSpinner2 } from 'react-icons/im';
+import {Property} from "./PropertyDetails";
 
 import { housesData } from '../data'
 import { BiBed, BiBath, BiArea } from 'react-icons/bi'
@@ -12,6 +15,13 @@ const PropertyDetails = () => {
   const house = housesData.find((house) => house.id == id)
 
   console.log(`PropertyDetails`, { id, house })
+
+  const {loading} = useContext(Property)
+  if (loading) {
+    return (
+      <ImSpinner2 className="mx-auto animate-spin text-violet-700 mt-[200px] text-4x1" />
+    )
+  }
 
   return (
     <section>
